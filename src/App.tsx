@@ -22,7 +22,7 @@ function App() {
           Download App (.apk)
         </Button>
         <div className="spacer" />
-         <Divider style={{ minWidth: '500px'}}>or</Divider>
+         <Divider style={{ maxWidth: '600px', margin: '0 auto'}}>or</Divider>
         <p>
           Soon available on
         </p>
