@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import GreenartLogo from './assets/greenart_logo.png'
 import Button from "@mui/material/Button";
 import Divider from "@mui/material/Divider";
