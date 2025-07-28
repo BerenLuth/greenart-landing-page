@@ -1,6 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import GreenartLogo from './assets/greenart_logo.png'
 import Button from "@mui/material/Button";
 import Divider from "@mui/material/Divider";
@@ -8,8 +6,6 @@ import { GooglePlayButton } from "react-mobile-app-button";
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   const downloadApk = () => {
     // Logic to download the APK file
     window.open('https://greenart-api.s3.eu-west-3.amazonaws.com/general/greenart-v1.apk', '_blank');
