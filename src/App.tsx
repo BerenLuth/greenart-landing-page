@@ -26,7 +26,7 @@ function App() {
         <Button variant="contained" onClick={downloadApk}>
           Download App (.apk)
         </Button>
-        <Tooltip title="Need help installing the APK on your Android device?" placement="right" arrow>
+        <Tooltip title="Need help installing the APK on your Android device?" placement="top" arrow>
           <IconButton color="primary" aria-label="help" onClick={() => setWarningVisible(!warningVisible)}>
             <HelpOutlineIcon />
           </IconButton>
