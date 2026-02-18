@@ -4,11 +4,11 @@ import Divider from "@mui/material/Divider";
 import { GooglePlayButton } from "react-mobile-app-button";
 import './App.css'
 import { useState } from 'react';
-import { IconButton, Tooltip } from '@mui/material';
-import HelpOutlineIcon from '@mui/icons-material/HelpOutline';
+// import { IconButton, Tooltip } from '@mui/material';
+// import HelpOutlineIcon from '@mui/icons-material/HelpOutline';
 
 function App() {
-  const [warningVisible, setWarningVisible] = useState(false);
+  const [warningVisible, setWarningVisible] = useState(true);
   const downloadApk = () => {
     setWarningVisible(true);
     // Logic to download the APK file
@@ -26,11 +26,11 @@ function App() {
         <Button variant="contained" onClick={downloadApk}>
           Download App (.apk)
         </Button>
-        <Tooltip title="Need help installing the APK on your Android device?" placement="top" arrow>
+        {/* <Tooltip title="Need help installing the APK on your Android device?" placement="top" arrow>
           <IconButton color="primary" aria-label="help" onClick={() => setWarningVisible(!warningVisible)}>
             <HelpOutlineIcon />
           </IconButton>
-        </Tooltip>
+        </Tooltip> */}
         <div className={`apk-install-help ${warningVisible ? 'apk-install-help--visible' : ''}`}>
           <div className="apk-install-help__title">
             ⚠️ Android installation help
