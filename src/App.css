@@ -44,13 +44,15 @@
 
 .apk-install-help {
   max-width: 420px;
-  margin: 20px auto;
+  margin: 0px auto;
   border-radius: 10px;
   background-color: #fff8e1;
+  border: 0px solid #ffe082;
+
   font-family: Arial, sans-serif;
   max-height: 0;
   overflow: hidden;
-  transition: all 0.8s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 
